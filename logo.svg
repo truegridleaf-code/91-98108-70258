@@ -1,0 +1,40 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="pigeonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+  </defs>
+  <!-- Shield Icon -->
+  <g transform="translate(10, 8)">
+    <!-- Shield Background -->
+    <path d="M32 4 C48 4 58 10 60 18 C60 42 32 58 32 58 C32 58 4 42 4 18 C6 10 16 4 32 4 Z" fill="url(#pigeonGrad)"/>
+    <path d="M32 8 C45 8 53 13 55 19 C55 39 32 53 32 53 C32 53 9 39 9 19 C11 13 19 8 32 8 Z" fill="#0f172a" opacity="0.15"/>
+    
+    <!-- Net Grid Lines -->
+    <path d="M16 20 L48 20 M12 28 L52 28 M14 36 L50 36 M18 44 L46 44" stroke="#ffffff" stroke-width="1.4" opacity="0.75" stroke-dasharray="3,2"/>
+    <path d="M22 14 L22 48 M32 10 L32 52 M42 14 L42 48" stroke="#ffffff" stroke-width="1.4" opacity="0.75" stroke-dasharray="3,2"/>
+    
+    <!-- Bird in Flight Silhouette -->
+    <path d="M22 28 C26 23 30 25 33 28 C36 25 40 23 44 28 C39 29 36 33 33 37 C30 33 27 29 22 28 Z" fill="#ffffff"/>
+    
+    <!-- Safety Tick Badge -->
+    <circle cx="48" cy="48" r="11" fill="url(#shieldGrad)"/>
+    <path d="M43 48 L46.5 51.5 L53 45" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <text x="82" y="38" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#0f172a" letter-spacing="-0.5">
+    SAURABH
+  </text>
+  <text x="82" y="58" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#0284c7" letter-spacing="1.5">
+    PIGEON NET
+  </text>
+  <text x="82" y="70" font-family="'Inter', system-ui, -apple-system, sans-serif" font-size="9" font-weight="600" fill="#64748b" letter-spacing="0.5">
+    BIRD CONTROL &amp; INVISIBLE GRILL
+  </text>
+</svg>
